@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_swift_biometrics_poc_swift_biometrics_pocUITests : NSObject
+@end
+@implementation PodsDummy_Pods_swift_biometrics_poc_swift_biometrics_pocUITests
+@end

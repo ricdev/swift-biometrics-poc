@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F980157733D37F73B72AE444E2C2AA8 /* Pods-swift-biometrics-poc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E564A0DA5C76E656099F89B8690BDFE0 /* Pods-swift-biometrics-poc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F6905EF77CDFE74AEB06D2792B56D9A /* Pods-swift-biometrics-poc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DCB38F9DC9BE21C22DAB3E66762743 /* Pods-swift-biometrics-poc-dummy.m */; };
+		21F0518C7127A432926C578805B7EE8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3B04A8BD20689C0F6F3C1ADE37E0406B /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A797B7A7B3083E256C3D26C62F764F5 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests-dummy.m */; };
+		4EAE0C3813E93BC45726D49C61148D70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9F60C0DE94505BA4345B302E9D3989CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B6DCCB8BF93A1077BD4D0460871AEE06 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E71A9FD01F6F46D6AF6DFD87AE3F6492 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE1054786836E4272BFFD89904B624D7 /* Pods-swift-biometrics-pocTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF795E90D632BE5376B5E582A233E75 /* Pods-swift-biometrics-pocTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3DF2C68BBF6FDB4425923EAA0BDB5A2 /* Pods-swift-biometrics-pocTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09317BB85E902D292AC8A799677D924B /* Pods-swift-biometrics-pocTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E4D9F3A70AF5A6F92A7EC97CCC8CF09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6228376EC24AA38433A1CD59F11D6B40;
+			remoteInfo = "Pods-swift-biometrics-poc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09317BB85E902D292AC8A799677D924B /* Pods-swift-biometrics-pocTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swift-biometrics-pocTests-dummy.m"; sourceTree = "<group>"; };
+		16BA8887FE92223ADD3BDBEFE6D4CAC1 /* Pods-swift-biometrics-poc-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift-biometrics-poc-acknowledgements.plist"; sourceTree = "<group>"; };
+		196FF019FBB79F3066E369B52FB0CA9C /* Pods-swift-biometrics-pocTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swift-biometrics-pocTests.modulemap"; sourceTree = "<group>"; };
+		1A797B7A7B3083E256C3D26C62F764F5 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swift-biometrics-poc-swift-biometrics-pocUITests-dummy.m"; sourceTree = "<group>"; };
+		23DCB38F9DC9BE21C22DAB3E66762743 /* Pods-swift-biometrics-poc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swift-biometrics-poc-dummy.m"; sourceTree = "<group>"; };
+		23F5457FEC0FD79204187D2E2A5C7044 /* Pods-swift-biometrics-poc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift-biometrics-poc-Info.plist"; sourceTree = "<group>"; };
+		2487FED1B812462586D9236161A73F7A /* Pods-swift-biometrics-pocTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift-biometrics-pocTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46A49A9D167C2C239C98AA75D7C7FD4A /* Pods-swift-biometrics-poc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift-biometrics-poc.debug.xcconfig"; sourceTree = "<group>"; };
+		4D7043DF344EF0CC8A3242D56A29234B /* Pods-swift-biometrics-poc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift-biometrics-poc.release.xcconfig"; sourceTree = "<group>"; };
+		5378C98843EA73E77424F7E964F5C870 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift-biometrics-poc-swift-biometrics-pocUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5541715C048A07943EBFAC2998C800FE /* Pods-swift-biometrics-pocTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift-biometrics-pocTests-Info.plist"; sourceTree = "<group>"; };
+		55E73A21D02B14CABD07EFA01F543839 /* Pods-swift-biometrics-pocTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift-biometrics-pocTests.release.xcconfig"; sourceTree = "<group>"; };
+		601DBF4E95896E41F3FDC7D04C746C8A /* Pods-swift-biometrics-pocTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swift-biometrics-pocTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BF795E90D632BE5376B5E582A233E75 /* Pods-swift-biometrics-pocTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swift-biometrics-pocTests-umbrella.h"; sourceTree = "<group>"; };
+		847D720C51E6986C0874C605EE264FE4 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swift-biometrics-poc-swift-biometrics-pocUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8FD368D47EA04158FE5FB16C50F2630F /* Pods-swift-biometrics-poc-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swift-biometrics-poc-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9383D5B7CF4BB51F35A3CE26C8D92C62 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift-biometrics-poc-swift-biometrics-pocUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9444D7A71500AF6F7837982847F5C543 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swift-biometrics-poc-swift-biometrics-pocUITests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB43740E117635AA8E021E74C2239143 /* Pods-swift-biometrics-poc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swift-biometrics-poc.modulemap"; sourceTree = "<group>"; };
+		D2C52C109C4D1EE0AD0B7602A6BB41FF /* Pods-swift-biometrics-poc */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-swift-biometrics-poc"; path = Pods_swift_biometrics_poc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EC2C710A21EE9C6A8558474DAE3CEA /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-swift-biometrics-poc-swift-biometrics-pocUITests"; path = Pods_swift_biometrics_poc_swift_biometrics_pocUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E564A0DA5C76E656099F89B8690BDFE0 /* Pods-swift-biometrics-poc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swift-biometrics-poc-umbrella.h"; sourceTree = "<group>"; };
+		E71A9FD01F6F46D6AF6DFD87AE3F6492 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swift-biometrics-poc-swift-biometrics-pocUITests-umbrella.h"; sourceTree = "<group>"; };
+		EA3EC2B7BD56DEB6F46620124F4FCA23 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift-biometrics-poc-swift-biometrics-pocUITests-Info.plist"; sourceTree = "<group>"; };
+		EF81316B20F72548FD5A78B3480B057F /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swift-biometrics-poc-swift-biometrics-pocUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4DAC77ADAA950D8F1828001292F42D5 /* Pods-swift-biometrics-pocTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swift-biometrics-pocTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5388C168282FCD32B0811404893E878 /* Pods-swift-biometrics-pocTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-swift-biometrics-pocTests"; path = Pods_swift_biometrics_pocTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33392C01EED17AB7F0AA798E432DB5F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F0518C7127A432926C578805B7EE8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D7339AB01CBB726810CC14BF693196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F60C0DE94505BA4345B302E9D3989CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E529E21A3EA4417BCAEB2D08820EADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAE0C3813E93BC45726D49C61148D70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A5656CE9C503A5CA2F0CF32193BDC5B /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9444D7A71500AF6F7837982847F5C543 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests.modulemap */,
+				847D720C51E6986C0874C605EE264FE4 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests-acknowledgements.markdown */,
+				5378C98843EA73E77424F7E964F5C870 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests-acknowledgements.plist */,
+				1A797B7A7B3083E256C3D26C62F764F5 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests-dummy.m */,
+				EA3EC2B7BD56DEB6F46620124F4FCA23 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests-Info.plist */,
+				E71A9FD01F6F46D6AF6DFD87AE3F6492 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests-umbrella.h */,
+				EF81316B20F72548FD5A78B3480B057F /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests.debug.xcconfig */,
+				9383D5B7CF4BB51F35A3CE26C8D92C62 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests.release.xcconfig */,
+			);
+			name = "Pods-swift-biometrics-poc-swift-biometrics-pocUITests";
+			path = "Target Support Files/Pods-swift-biometrics-poc-swift-biometrics-pocUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D75F189EB621A192DDAAD685734C66B /* Pods-swift-biometrics-poc */ = {
+			isa = PBXGroup;
+			children = (
+				BB43740E117635AA8E021E74C2239143 /* Pods-swift-biometrics-poc.modulemap */,
+				8FD368D47EA04158FE5FB16C50F2630F /* Pods-swift-biometrics-poc-acknowledgements.markdown */,
+				16BA8887FE92223ADD3BDBEFE6D4CAC1 /* Pods-swift-biometrics-poc-acknowledgements.plist */,
+				23DCB38F9DC9BE21C22DAB3E66762743 /* Pods-swift-biometrics-poc-dummy.m */,
+				23F5457FEC0FD79204187D2E2A5C7044 /* Pods-swift-biometrics-poc-Info.plist */,
+				E564A0DA5C76E656099F89B8690BDFE0 /* Pods-swift-biometrics-poc-umbrella.h */,
+				46A49A9D167C2C239C98AA75D7C7FD4A /* Pods-swift-biometrics-poc.debug.xcconfig */,
+				4D7043DF344EF0CC8A3242D56A29234B /* Pods-swift-biometrics-poc.release.xcconfig */,
+			);
+			name = "Pods-swift-biometrics-poc";
+			path = "Target Support Files/Pods-swift-biometrics-poc";
+			sourceTree = "<group>";
+		};
+		C06BDE94CDDB98DB03DFE443E67E0DCB /* Pods-swift-biometrics-pocTests */ = {
+			isa = PBXGroup;
+			children = (
+				196FF019FBB79F3066E369B52FB0CA9C /* Pods-swift-biometrics-pocTests.modulemap */,
+				601DBF4E95896E41F3FDC7D04C746C8A /* Pods-swift-biometrics-pocTests-acknowledgements.markdown */,
+				F4DAC77ADAA950D8F1828001292F42D5 /* Pods-swift-biometrics-pocTests-acknowledgements.plist */,
+				09317BB85E902D292AC8A799677D924B /* Pods-swift-biometrics-pocTests-dummy.m */,
+				5541715C048A07943EBFAC2998C800FE /* Pods-swift-biometrics-pocTests-Info.plist */,
+				7BF795E90D632BE5376B5E582A233E75 /* Pods-swift-biometrics-pocTests-umbrella.h */,
+				2487FED1B812462586D9236161A73F7A /* Pods-swift-biometrics-pocTests.debug.xcconfig */,
+				55E73A21D02B14CABD07EFA01F543839 /* Pods-swift-biometrics-pocTests.release.xcconfig */,
+			);
+			name = "Pods-swift-biometrics-pocTests";
+			path = "Target Support Files/Pods-swift-biometrics-pocTests";
+			sourceTree = "<group>";
+		};
+		CA85DC1C648494DB93032EF502368497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2C52C109C4D1EE0AD0B7602A6BB41FF /* Pods-swift-biometrics-poc */,
+				D4EC2C710A21EE9C6A8558474DAE3CEA /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests */,
+				F5388C168282FCD32B0811404893E878 /* Pods-swift-biometrics-pocTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CA85DC1C648494DB93032EF502368497 /* Products */,
+				D81C3C9D31045FB7C367B537F0A33882 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D81C3C9D31045FB7C367B537F0A33882 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D75F189EB621A192DDAAD685734C66B /* Pods-swift-biometrics-poc */,
+				2A5656CE9C503A5CA2F0CF32193BDC5B /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests */,
+				C06BDE94CDDB98DB03DFE443E67E0DCB /* Pods-swift-biometrics-pocTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16C6A728B64758E626401222B0E420C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DCCB8BF93A1077BD4D0460871AEE06 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FFE496E95BAFBE7D85053834C11E51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F980157733D37F73B72AE444E2C2AA8 /* Pods-swift-biometrics-poc-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA715E2F0C8ED3B8C8CB74C3693CFAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1054786836E4272BFFD89904B624D7 /* Pods-swift-biometrics-pocTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F7AE3B8671389E1318232552BA9ED35 /* Pods-swift-biometrics-pocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147D9029EA701FC4654B9AA0FF7C2860 /* Build configuration list for PBXNativeTarget "Pods-swift-biometrics-pocTests" */;
+			buildPhases = (
+				8BA715E2F0C8ED3B8C8CB74C3693CFAA /* Headers */,
+				61EB540FADCD914DEADF5EAB8414D06A /* Sources */,
+				8E529E21A3EA4417BCAEB2D08820EADB /* Frameworks */,
+				EA72BC67863D36B1C1364B20A90F5792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDE8BE0A5777C22B4B38E781833F17B1 /* PBXTargetDependency */,
+			);
+			name = "Pods-swift-biometrics-pocTests";
+			productName = Pods_swift_biometrics_pocTests;
+			productReference = F5388C168282FCD32B0811404893E878 /* Pods-swift-biometrics-pocTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		6228376EC24AA38433A1CD59F11D6B40 /* Pods-swift-biometrics-poc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01601E64E4EB11ACF5A41D16FFF5CC8 /* Build configuration list for PBXNativeTarget "Pods-swift-biometrics-poc" */;
+			buildPhases = (
+				29FFE496E95BAFBE7D85053834C11E51 /* Headers */,
+				350736BD355E955B322C940E835CC67E /* Sources */,
+				33392C01EED17AB7F0AA798E432DB5F9 /* Frameworks */,
+				811D78A3CF96EB13680A4518494F005C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-swift-biometrics-poc";
+			productName = Pods_swift_biometrics_poc;
+			productReference = D2C52C109C4D1EE0AD0B7602A6BB41FF /* Pods-swift-biometrics-poc */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D9DF4558ADDBE451840C2F6647F0B7F /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FD9553C4E18120CAAE43D16662C7CE /* Build configuration list for PBXNativeTarget "Pods-swift-biometrics-poc-swift-biometrics-pocUITests" */;
+			buildPhases = (
+				16C6A728B64758E626401222B0E420C0 /* Headers */,
+				70B811425B6DDC64F4F92617B99CB973 /* Sources */,
+				68D7339AB01CBB726810CC14BF693196 /* Frameworks */,
+				9F263D444B9367FAD3BAB1DAADB6BE62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-swift-biometrics-poc-swift-biometrics-pocUITests";
+			productName = Pods_swift_biometrics_poc_swift_biometrics_pocUITests;
+			productReference = D4EC2C710A21EE9C6A8558474DAE3CEA /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CA85DC1C648494DB93032EF502368497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6228376EC24AA38433A1CD59F11D6B40 /* Pods-swift-biometrics-poc */,
+				9D9DF4558ADDBE451840C2F6647F0B7F /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests */,
+				5F7AE3B8671389E1318232552BA9ED35 /* Pods-swift-biometrics-pocTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		811D78A3CF96EB13680A4518494F005C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F263D444B9367FAD3BAB1DAADB6BE62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA72BC67863D36B1C1364B20A90F5792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		350736BD355E955B322C940E835CC67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6905EF77CDFE74AEB06D2792B56D9A /* Pods-swift-biometrics-poc-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61EB540FADCD914DEADF5EAB8414D06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DF2C68BBF6FDB4425923EAA0BDB5A2 /* Pods-swift-biometrics-pocTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B811425B6DDC64F4F92617B99CB973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B04A8BD20689C0F6F3C1ADE37E0406B /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDE8BE0A5777C22B4B38E781833F17B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-swift-biometrics-poc";
+			target = 6228376EC24AA38433A1CD59F11D6B40 /* Pods-swift-biometrics-poc */;
+			targetProxy = 3E4D9F3A70AF5A6F92A7EC97CCC8CF09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6390B8E46915CAC32153CE563B9E8597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E73A21D02B14CABD07EFA01F543839 /* Pods-swift-biometrics-pocTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swift-biometrics-pocTests/Pods-swift-biometrics-pocTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swift-biometrics-pocTests/Pods-swift-biometrics-pocTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A09B39D04C46BED9C42595DE90D9EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A49A9D167C2C239C98AA75D7C7FD4A /* Pods-swift-biometrics-poc.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swift-biometrics-poc/Pods-swift-biometrics-poc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swift-biometrics-poc/Pods-swift-biometrics-poc.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9D8FF29344CB39E2188A1D52D05B40D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9383D5B7CF4BB51F35A3CE26C8D92C62 /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swift-biometrics-poc-swift-biometrics-pocUITests/Pods-swift-biometrics-poc-swift-biometrics-pocUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swift-biometrics-poc-swift-biometrics-pocUITests/Pods-swift-biometrics-poc-swift-biometrics-pocUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B35A97766713CB50EDA525C733F97674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF81316B20F72548FD5A78B3480B057F /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swift-biometrics-poc-swift-biometrics-pocUITests/Pods-swift-biometrics-poc-swift-biometrics-pocUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swift-biometrics-poc-swift-biometrics-pocUITests/Pods-swift-biometrics-poc-swift-biometrics-pocUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E809FA84DD0E573254DCA157B3E20A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2487FED1B812462586D9236161A73F7A /* Pods-swift-biometrics-pocTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swift-biometrics-pocTests/Pods-swift-biometrics-pocTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swift-biometrics-pocTests/Pods-swift-biometrics-pocTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFFCDDCC0402FEB75B6A8E5A2DB671E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D7043DF344EF0CC8A3242D56A29234B /* Pods-swift-biometrics-poc.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swift-biometrics-poc/Pods-swift-biometrics-poc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swift-biometrics-poc/Pods-swift-biometrics-poc.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147D9029EA701FC4654B9AA0FF7C2860 /* Build configuration list for PBXNativeTarget "Pods-swift-biometrics-pocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E809FA84DD0E573254DCA157B3E20A9D /* Debug */,
+				6390B8E46915CAC32153CE563B9E8597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FD9553C4E18120CAAE43D16662C7CE /* Build configuration list for PBXNativeTarget "Pods-swift-biometrics-poc-swift-biometrics-pocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35A97766713CB50EDA525C733F97674 /* Debug */,
+				9D8FF29344CB39E2188A1D52D05B40D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01601E64E4EB11ACF5A41D16FFF5CC8 /* Build configuration list for PBXNativeTarget "Pods-swift-biometrics-poc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A09B39D04C46BED9C42595DE90D9EA0 /* Debug */,
+				FFFCDDCC0402FEB75B6A8E5A2DB671E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
