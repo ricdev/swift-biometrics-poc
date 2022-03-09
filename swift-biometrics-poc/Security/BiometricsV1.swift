@@ -8,7 +8,7 @@
 import UIKit
 import LocalAuthentication
 
-class Biometrics {
+class BiometricsV1 {
     
     enum Status: String {
         case success
@@ -16,9 +16,9 @@ class Biometrics {
         case unavailable
     }
     
-    static let shared = Biometrics()
+    static let shared = BiometricsV1()
     
-    func authenthicate(completion: @escaping (Biometrics.Status) -> Void) {
+    func authenthicate(completion: @escaping (BiometricsV1.Status) -> Void) {
         
         let context = LAContext()
         var error: NSError? = nil

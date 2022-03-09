@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C6A084327CD13E400983F15 /* Biometrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6A084227CD13E400983F15 /* Biometrics.swift */; };
+		0C6A084327CD13E400983F15 /* BiometricsV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6A084227CD13E400983F15 /* BiometricsV2.swift */; };
 		0CCCD9F027CCF67100859350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCCD9EF27CCF67100859350 /* AppDelegate.swift */; };
 		0CCCD9F427CCF67100859350 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCCD9F327CCF67100859350 /* ViewController.swift */; };
 		0CCCD9F927CCF67400859350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCCD9F827CCF67400859350 /* Assets.xcassets */; };
@@ -15,6 +15,10 @@
 		0CCCDA0727CCF67400859350 /* swift_biometrics_pocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCCDA0627CCF67400859350 /* swift_biometrics_pocTests.swift */; };
 		0CCCDA1127CCF67400859350 /* swift_biometrics_pocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCCDA1027CCF67400859350 /* swift_biometrics_pocUITests.swift */; };
 		0CCCDA1327CCF67400859350 /* swift_biometrics_pocUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCCDA1227CCF67400859350 /* swift_biometrics_pocUITestsLaunchTests.swift */; };
+		0CFD38AF27D8B98A007D232E /* BiometricsV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD38AE27D8B98A007D232E /* BiometricsV1.swift */; };
+		0CFD38B227D8C42D007D232E /* Hasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD38B127D8C42D007D232E /* Hasher.swift */; };
+		0CFD38B427D8DF6C007D232E /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD38B327D8DF6C007D232E /* KeychainPasswordItem.swift */; };
+		0CFD38B627D8DFA2007D232E /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD38B527D8DFA2007D232E /* Keychain.swift */; };
 		3F0876553A95967573B570D9 /* Pods_swift_biometrics_poc_swift_biometrics_pocUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4F26BD42C463291EEF8C53 /* Pods_swift_biometrics_poc_swift_biometrics_pocUITests.framework */; };
 		AC7A8706CF7F3C069955A797 /* Pods_swift_biometrics_pocTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0411CD675E20579B651FCCE6 /* Pods_swift_biometrics_pocTests.framework */; };
 		BC89CAFE0B0159DF444D2AF1 /* Pods_swift_biometrics_poc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7089E97F54D745D303B18E4F /* Pods_swift_biometrics_poc.framework */; };
@@ -39,7 +43,7 @@
 
 /* Begin PBXFileReference section */
 		0411CD675E20579B651FCCE6 /* Pods_swift_biometrics_pocTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_biometrics_pocTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C6A084227CD13E400983F15 /* Biometrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biometrics.swift; sourceTree = "<group>"; };
+		0C6A084227CD13E400983F15 /* BiometricsV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricsV2.swift; sourceTree = "<group>"; };
 		0CCCD9EC27CCF67100859350 /* swift-biometrics-poc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-biometrics-poc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCCD9EF27CCF67100859350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CCCD9F327CCF67100859350 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +55,10 @@
 		0CCCDA0C27CCF67400859350 /* swift-biometrics-pocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-biometrics-pocUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCCDA1027CCF67400859350 /* swift_biometrics_pocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_biometrics_pocUITests.swift; sourceTree = "<group>"; };
 		0CCCDA1227CCF67400859350 /* swift_biometrics_pocUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_biometrics_pocUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CFD38AE27D8B98A007D232E /* BiometricsV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricsV1.swift; sourceTree = "<group>"; };
+		0CFD38B127D8C42D007D232E /* Hasher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hasher.swift; sourceTree = "<group>"; };
+		0CFD38B327D8DF6C007D232E /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+		0CFD38B527D8DFA2007D232E /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
 		542674BB5B36B37530CF493E /* Pods-swift-biometrics-poc-swift-biometrics-pocUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-biometrics-poc-swift-biometrics-pocUITests.debug.xcconfig"; path = "Target Support Files/Pods-swift-biometrics-poc-swift-biometrics-pocUITests/Pods-swift-biometrics-poc-swift-biometrics-pocUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7089E97F54D745D303B18E4F /* Pods_swift_biometrics_poc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_biometrics_poc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C6CAEF0E4A0FCFE71FC3573 /* Pods-swift-biometrics-poc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-biometrics-poc.release.xcconfig"; path = "Target Support Files/Pods-swift-biometrics-poc/Pods-swift-biometrics-poc.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,10 +124,10 @@
 			children = (
 				0CCCD9EF27CCF67100859350 /* AppDelegate.swift */,
 				0CCCD9F327CCF67100859350 /* ViewController.swift */,
+				0CFD38B027D8BEFA007D232E /* Security */,
 				0CCCD9F827CCF67400859350 /* Assets.xcassets */,
 				0CCCD9FA27CCF67400859350 /* LaunchScreen.storyboard */,
 				0CCCD9FD27CCF67400859350 /* Info.plist */,
-				0C6A084227CD13E400983F15 /* Biometrics.swift */,
 			);
 			path = "swift-biometrics-poc";
 			sourceTree = "<group>";
@@ -139,6 +147,18 @@
 				0CCCDA1227CCF67400859350 /* swift_biometrics_pocUITestsLaunchTests.swift */,
 			);
 			path = "swift-biometrics-pocUITests";
+			sourceTree = "<group>";
+		};
+		0CFD38B027D8BEFA007D232E /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				0CFD38B327D8DF6C007D232E /* KeychainPasswordItem.swift */,
+				0C6A084227CD13E400983F15 /* BiometricsV2.swift */,
+				0CFD38AE27D8B98A007D232E /* BiometricsV1.swift */,
+				0CFD38B127D8C42D007D232E /* Hasher.swift */,
+				0CFD38B527D8DFA2007D232E /* Keychain.swift */,
+			);
+			path = Security;
 			sourceTree = "<group>";
 		};
 		7B866534B13FC7B2F437E4A1 /* Frameworks */ = {
@@ -366,9 +386,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C6A084327CD13E400983F15 /* Biometrics.swift in Sources */,
+				0C6A084327CD13E400983F15 /* BiometricsV2.swift in Sources */,
+				0CFD38AF27D8B98A007D232E /* BiometricsV1.swift in Sources */,
 				0CCCD9F427CCF67100859350 /* ViewController.swift in Sources */,
 				0CCCD9F027CCF67100859350 /* AppDelegate.swift in Sources */,
+				0CFD38B227D8C42D007D232E /* Hasher.swift in Sources */,
+				0CFD38B427D8DF6C007D232E /* KeychainPasswordItem.swift in Sources */,
+				0CFD38B627D8DFA2007D232E /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
