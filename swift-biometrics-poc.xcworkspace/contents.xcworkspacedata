@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/ricardomonteverde/Desktop/DevMachine/swift-biometrics-poc/swift-biometrics-poc/README.md">
+   </FileRef>
+   <FileRef
       location = "group:swift-biometrics-poc.xcodeproj">
    </FileRef>
    <FileRef

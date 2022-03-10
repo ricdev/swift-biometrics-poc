@@ -6,19 +6,11 @@
 //
 
 import Foundation
+import UIKit
 
 class Keychain {
     
     static let shared = Keychain()
-    
-    // Keychain Configuration
-    struct KeychainConfiguration {
-      static let serviceName = "TouchMeIn"
-      static let accessGroup: String? = nil
-    }
-    
-    var passwordItems: [KeychainPasswordItem] = []
-    let createLoginButtonTag = 0
-    let loginButtonTag = 1
-    
 }
+
+// TODO: Wrapper specific for app

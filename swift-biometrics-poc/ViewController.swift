@@ -34,45 +34,108 @@ class ViewController: UIViewController {
     }
     
     @objc private func tapGestureAction(sender : UITapGestureRecognizer) {
-//        self.loginUsingV2()
+        
+        /*
+         
+         Simulated login button in a typical login process.
+         At the end of the process, a token will be received.
+         Token will be enrypted and decrypted when needed.
+         
+         */
 
         // Store login data in Keychain
         UserDefaults.standard.set("user", forKey: "usernameKey")
         UserDefaults.standard.set("pass", forKey: "passwordKey")
-        UserDefaults.standard.set(true, forKey: "hasLoginKey")
-        UserDefaults.standard.set("0123456778", forKey: "loginKey")
-        
-        // get keychain data
+
+        // check if user has log in successfully
         let hasLoginKey = UserDefaults.standard.bool(forKey: "hasLoginKey")
         print("\(hasLoginKey)")
         
-        let loginKey = UserDefaults.standard.string(forKey: "loginKey")
-        guard let loginKey = loginKey else { return }
-        print("\(loginKey)")
-        
-        if let usernameKey = UserDefaults.standard.string(forKey: "usernameKey"), let passwordKey = UserDefaults.standard.string(forKey: "passwordKey") {
+        if hasLoginKey {
+            
+            // use face or touch id. typical execution is, after a successfull login, app ask the user if he/she wants this feature to be activated.
+            BiometricsV2.shared.canEvaluate { (canEvaluate, _, canEvaluateError) in
+                guard canEvaluate else {
+                    alert(title: "Error", message: canEvaluateError?.localizedDescription ?? "Face ID/Touch ID may not be configured.", okActionTitle: "Ok")
+                    return
+                }
+                
+                BiometricsV2.shared.evaluate { [weak self] (success, error) in
+                    guard success else {
+                        self?.alert(title: "Error", message: error?.localizedDescription ?? "Face ID/Touch ID may not be configured.", okActionTitle: "Ok")
+                        return
+                    }
+                    
+                    self?.loadToken()
+                }
+            }
+            
+        } else {
+            
+            // login using username and password
+            guard let usernameKey = UserDefaults.standard.string(forKey: "usernameKey"), let passwordKey = UserDefaults.standard.string(forKey: "passwordKey") else {
+                self.alert(title: "Login Problem", message: "Wrong username or password", okActionTitle: "Continue")
+                return
+            }
             
             self.verify(username: usernameKey, password: passwordKey, completion: { (status, token) in
-                switch status {
-                case true:
-                    self.lblTitle.text = "Success. \nTap to try again."
-                    
-                    // Encrypt
-                    guard let token = token else { return }
-                    let data = Hasher.shared.enryptString(token)
-                    
-                    // Decrypt
-                    guard let data = data else { return }
-                    let decryptedData = Hasher.shared.decrypt(data: data)
-                    
-                    guard let decryptedData = decryptedData else { return }
-                    print(decryptedData)
-                    
-                default:
+                
+                guard status else {
+                    self.alert(title: "Login Problem", message: "Wrong username or password", okActionTitle: "Continue")
                     self.lblTitle.text = "Failed. \nTap to try again."
+                    return
                 }
+                
+                self.lblTitle.text = "Success. \nTap to try again."
+                
+                guard let token = token else { return }
+                saveToken(token: token)
+                
+                loadToken()
             })
+            
         }
+    }
+}
+
+extension ViewController {
+    
+    func saveToken(token: String) {
+
+        // encrypt
+        let data = HasherAESGCM.shared.enryptString(token)
+        
+        // save to local
+        UserDefaults.standard.set(data, forKey: "loginKey")
+        UserDefaults.standard.set(true, forKey: "hasLoginKey")
+    }
+    
+    func loadToken() {
+        
+        // get local data
+        let defaults = UserDefaults.standard
+        let loginKeyData = defaults.object(forKey: "loginKey") as? Data
+        
+        // Note: works only stored strings, bool etc.
+        // let loginKeyData = UserDefaults.standard.data(forKey: "loginKey")
+        
+        guard let loginKeyData = loginKeyData else {
+            self.alert(title: "Failed.", message: "Failed to load token.", okActionTitle: "Continue")
+            self.lblTitle.text = "Failed. \nTap to try again."
+            return
+        }
+        
+        // decrypt
+        let decryptedData: String? = HasherAESGCM.shared.decrypt(data: loginKeyData)
+        
+        guard let decryptedData = decryptedData else {
+            self.alert(title: "Failed.", message: "Failed to load token.", okActionTitle: "Continue")
+            self.lblTitle.text = "Failed. \nTap to try again."
+            return
+        }
+        
+        self.alert(title: "Success.", message: "Token: \(decryptedData)", okActionTitle: "Continue")
+        self.lblTitle.text = "Success. \nTap to try again."
     }
 }
 

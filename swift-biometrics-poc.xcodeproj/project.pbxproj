@@ -15,6 +15,7 @@
 		0CCCDA0727CCF67400859350 /* swift_biometrics_pocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCCDA0627CCF67400859350 /* swift_biometrics_pocTests.swift */; };
 		0CCCDA1127CCF67400859350 /* swift_biometrics_pocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCCDA1027CCF67400859350 /* swift_biometrics_pocUITests.swift */; };
 		0CCCDA1327CCF67400859350 /* swift_biometrics_pocUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCCDA1227CCF67400859350 /* swift_biometrics_pocUITestsLaunchTests.swift */; };
+		0CF5C83927D9EC060010F547 /* HasherAESGCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5C83827D9EC060010F547 /* HasherAESGCM.swift */; };
 		0CFD38AF27D8B98A007D232E /* BiometricsV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD38AE27D8B98A007D232E /* BiometricsV1.swift */; };
 		0CFD38B227D8C42D007D232E /* Hasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD38B127D8C42D007D232E /* Hasher.swift */; };
 		0CFD38B427D8DF6C007D232E /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD38B327D8DF6C007D232E /* KeychainPasswordItem.swift */; };
@@ -55,6 +56,8 @@
 		0CCCDA0C27CCF67400859350 /* swift-biometrics-pocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-biometrics-pocUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCCDA1027CCF67400859350 /* swift_biometrics_pocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_biometrics_pocUITests.swift; sourceTree = "<group>"; };
 		0CCCDA1227CCF67400859350 /* swift_biometrics_pocUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_biometrics_pocUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CF5C83727D9EB270010F547 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "/Users/ricardomonteverde/Desktop/DevMachine/swift-biometrics-poc/swift-biometrics-poc/README.md"; sourceTree = "<absolute>"; };
+		0CF5C83827D9EC060010F547 /* HasherAESGCM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasherAESGCM.swift; sourceTree = "<group>"; };
 		0CFD38AE27D8B98A007D232E /* BiometricsV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricsV1.swift; sourceTree = "<group>"; };
 		0CFD38B127D8C42D007D232E /* Hasher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hasher.swift; sourceTree = "<group>"; };
 		0CFD38B327D8DF6C007D232E /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
@@ -128,6 +131,7 @@
 				0CCCD9F827CCF67400859350 /* Assets.xcassets */,
 				0CCCD9FA27CCF67400859350 /* LaunchScreen.storyboard */,
 				0CCCD9FD27CCF67400859350 /* Info.plist */,
+				0CF5C83727D9EB270010F547 /* README.md */,
 			);
 			path = "swift-biometrics-poc";
 			sourceTree = "<group>";
@@ -155,6 +159,7 @@
 				0CFD38B327D8DF6C007D232E /* KeychainPasswordItem.swift */,
 				0C6A084227CD13E400983F15 /* BiometricsV2.swift */,
 				0CFD38AE27D8B98A007D232E /* BiometricsV1.swift */,
+				0CF5C83827D9EC060010F547 /* HasherAESGCM.swift */,
 				0CFD38B127D8C42D007D232E /* Hasher.swift */,
 				0CFD38B527D8DFA2007D232E /* Keychain.swift */,
 			);
@@ -386,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF5C83927D9EC060010F547 /* HasherAESGCM.swift in Sources */,
 				0C6A084327CD13E400983F15 /* BiometricsV2.swift in Sources */,
 				0CFD38AF27D8B98A007D232E /* BiometricsV1.swift in Sources */,
 				0CCCD9F427CCF67100859350 /* ViewController.swift in Sources */,
